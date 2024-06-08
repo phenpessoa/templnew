@@ -62,7 +62,7 @@ func usage() {
 }
 
 func main() {
-	log.SetPrefix("gonew: ")
+	log.SetPrefix("templnew: ")
 	log.SetFlags(0)
 	flag.Usage = usage
 	flag.Parse()
